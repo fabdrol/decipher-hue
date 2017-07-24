@@ -1,13 +1,14 @@
 {
   "name": "decipher-hue",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "A program to interface with Philips Hue",
   "main": "index.js",
   "scripts": {
-    "test": "DEBUG=decipher* node ."
+    "test": "DEBUG=decipher* node .",
+    "start": "node ."
   },
   "author": "Fabian Tollenaar <fabian@decipher.industries> (https://decipher.industries)",
-  "license": "UNLICENSED",
+  "license": "Apache-2.0",
   "dependencies": {
     "debug": "^2.6.8",
     "huejay": "^1.5.0"
